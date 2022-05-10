@@ -37,6 +37,6 @@ public class MandelbrotPoint
     public Color getColour()
     {
         float color = (float)(iterationDepth)/((float)NUMBER_OF_ITERATIONS*1.5f);
-        return new Color(0, 0, color,1);
+        return new Color(color, 0, 0.2f + color,1);
     }
 }

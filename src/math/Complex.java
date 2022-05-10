@@ -41,7 +41,7 @@ public class Complex
         r = Math.sqrt(real * real + imag * imag);
 
         //todo - proper epsilon value!
-        if (Math.abs(imag) < 0.0001)
+        if (Math.abs(imag) < 0.000001)
         {
             if (imag > 0)
                 theta = 0;
