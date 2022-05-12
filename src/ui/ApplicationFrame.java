@@ -14,11 +14,11 @@ public class ApplicationFrame extends JFrame implements MouseWheelListener, Mous
     public ApplicationFrame(MandelbrotView view)
     {
         this.view = view;
-        view.setPoints(-2, 2, -2, 2);
+        view.setPoints(-2.5, 2.5, -1.5, 1.5);
         view.update();
 
         setContentPane(contentPane);
-        setSize(1600,1600);
+        setSize(3200,1600);
 
         // call onCancel() when cross is clicked
         setDefaultCloseOperation(EXIT_ON_CLOSE);
